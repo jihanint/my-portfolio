@@ -742,7 +742,6 @@
       <li><strong>Frontend:</strong> HTML5, CSS3, jQuery, Bootstrap for responsive layout.</li>
       <li><strong>Backend:</strong> Likely CMS-based (e.g., WordPress), includes news publishing tools and media integration.</li>
       <li><strong>Third-party:</strong> Ads, social sharing plugins, comment systems.</li>
-      <li><strong>Hosting:</strong> Standard LAMP stack or WordPress-optimized hosting.</li>
     </ul>
   </div>
 
@@ -758,7 +757,6 @@
       <li><strong>Frontend:</strong> HTML5, Bootstrap, responsive navigation.</li>
       <li><strong>Backend:</strong> PHP-based CMS, likely WordPress with academic theme.</li>
       <li><strong>Third-party:</strong> Embedded maps, document download system.</li>
-      <li><strong>Hosting:</strong> Shared or VPS with PHP and MySQL support.</li>
     </ul>
   </div>
 
@@ -775,135 +773,112 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Projects Overview Carousel</h2>
+    <p>Explore highlighted web solutions with tech stacks and features.</p>
+  </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": 1,
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          }
+        }
+      </script>
 
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
+      <div class="swiper-wrapper">
 
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
+        <!-- COURTS Ecommerce -->
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <img src="assets/img/courts.png" class="mb-3" style="height: 60px;" alt="COURTS Logo">
+            <h3>COURTS Ecommerce</h3>
+            <ul class="text-start d-inline-block">
+              <li><strong>Key Features:</strong> Category browsing, regional WhatsApp checkout, dynamic promos</li>
+              <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript</li>
+              <li><strong>Backend:</strong> CMS-driven architecture</li>
+              <li><strong>Third-party:</strong> WhatsApp, cloud catalogs</li>
+              <li><strong>SEO & Hosting:</strong> Cloud-hosted, responsive UI</li>
+            </ul>
           </div>
-          <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- COURTS ERP Hub -->
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <img src="assets/img/Courtsfin.png" class="mb-3" style="height: 60px;" alt="ERP Logo">
+            <h3>COURTS ERP Hub</h3>
+            <ul class="text-start d-inline-block">
+              <li><strong>Key Features:</strong> Approval workflows, record history, auto-code generation</li>
+              <li><strong>Frontend:</strong> React.js, Bootstrap</li>
+              <li><strong>Backend:</strong> Django REST, SQL Server</li>
+              <li><strong>Integration:</strong> JWT auth, email triggers</li>
+              <li><strong>Hosting:</strong> Self-hosted/staged environments</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- News Capz -->
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <img src="assets/img/newscapz.png" class="mb-3" style="height: 60px;" alt="News Capz Logo">
+            <h3>News Capz</h3>
+            <ul class="text-start d-inline-block">
+              <li><strong>Key Features:</strong> Article lists, category filter, comment system, news highlights</li>
+              <li><strong>Frontend:</strong> WordPress + custom theme</li>
+              <li><strong>Backend:</strong> PHP + MySQL</li>
+              <li><strong>SEO:</strong> Schema markup, AMP-ready</li>
+              <li><strong>Third-party:</strong> Disqus, Google Analytics</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- UTA 45 -->
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <img src="assets/img/uta45.png" class="mb-3" style="height: 60px;" alt="UTA 45 Logo">
+            <h3>UTA 45 Website</h3>
+            <ul class="text-start d-inline-block">
+              <li><strong>Key Features:</strong> Faculty listings, accreditation, student info portal</li>
+              <li><strong>Frontend:</strong> Bootstrap, jQuery, HTML5</li>
+              <li><strong>Backend:</strong> PHP (likely CodeIgniter)</li>
+              <li><strong>Hosting:</strong> University-managed shared hosting</li>
+              <li><strong>SEO:</strong> Structured content, responsive</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Papua Satu -->
+        <div class="swiper-slide">
+          <div class="testimonial-item text-center">
+            <img src="assets/img/papua.png" class="mb-3" style="height: 60px;" alt="Papua Logo">
+            <h3>Papua Satu</h3>
+            <ul class="text-start d-inline-block">
+              <li><strong>Key Features:</strong> Headlines, regional categories, image sliders, breaking news</li>
+              <li><strong>Frontend:</strong> Custom WordPress theme</li>
+              <li><strong>Backend:</strong> WordPress + plugins (Yoast SEO, WPForms)</li>
+              <li><strong>Hosting:</strong> Cloud-based shared host</li>
+              <li><strong>Analytics:</strong> AdSense, Meta Pixel</li>
+            </ul>
+          </div>
         </div>
 
       </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
 
-    </section><!-- /Testimonials Section -->
+</section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
